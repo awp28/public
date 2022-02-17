@@ -28,7 +28,7 @@ class UsersTableSeeder extends Seeder
             ],
             [
                 'name' => 'Admin',
-                'password' => 'test2806',
+                'password' => 'admin',
                 'role_id' => $role->id,
             ]
         );
