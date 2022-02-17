@@ -1,0 +1,321 @@
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 796px) {
+    .container {
+        padding: 0px 13px;
+    }
+    .on-desktop {
+        display: none !important;
+    }
+    .main-text h4,
+    h5 {
+        width: 100%;
+        font-size: 24px !important;
+    }
+    .container-fluid .main .main-content {
+        width: 100%;
+        height: 280px;
+        object-fit: cover;
+    }
+    .container-fluid .main .main-text {
+        position: absolute;
+        width: 100%;
+        top: 95px;
+        /* padding: 0px 15px; */
+    }
+    .regional_departament {
+        display: block !important;
+    }
+    .regional_departamentList {
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
+    .management .col-6 {
+        width: 100% !important;
+    }
+    .skills-info .people-name p {
+        font-size: 15px !important;
+    }
+    .skills-info .navigation p,
+    .skills .people-tel p {
+        font-size: 16px;
+    }
+    .skills-info .people-name img,
+    .skills .people-tel img {
+        width: 19px !important;
+        height: 19px !important;
+    }
+    .skills-photo img {
+        width: 100%;
+        text-align: center;
+    }
+    .container-fluid .skills .container .row .col-6 .card .card-body {
+        display: block !important;
+    }
+    .skills-photo img {
+        width: 100% !important;
+        height: 240px !important;
+        margin-bottom: 15px;
+    }
+    .newsList {
+        display: block;
+        width: 100%;
+    }
+    .news_cardMiniImage {
+        display: flex;
+        justify-content: space-between !important;
+        width: auto;
+    }
+    .news_cardImage img,
+    .news_cardMiniImage img,
+    .news_cardImage {
+        width: 100% !important;
+        object-fit: contain;
+        margin-right: 10px;
+    }
+    .news_cardImage img,
+    .news_cardMiniImage img {
+        height: auto !important;
+        margin-bottom: 10px !important;
+    }
+    .news_cardMiniImage img {
+        width: 188.5px !important;
+    }
+    .vocational_training,
+    .footer_items,
+    .leader_items,
+    .employes_list,
+    .photo_item {
+        display: block;
+        width: 100% !important;
+        margin: 0 auto;
+    }
+    .vocational_trainingItem,
+    .footer_list {
+        width: 100% !important;
+        margin-bottom: 15px;
+    }
+    .container-fluid .footer {
+        height: auto !important;
+    }
+    .footer {
+        padding-bottom: 16px;
+    }
+    .leader_items {
+        margin-bottom: 20px;
+    }
+    .leader_items .men-photo img,
+    .photo_list {
+        width: 100% !important;
+        margin-bottom: 15px;
+    }
+    .leader_items .info {
+        padding: 0 5px;
+    }
+    .people-info {
+        margin-right: 20px;
+    }
+    .employees .container-fluid .leader .container .row .col-12 .card .card-body .men-photo img {
+        width: 90% !important;
+        height: 220px;
+    }
+    .employees .container-fluid .leader .container .row .col-12 .card .card-body .info {
+        margin-left: 20px !important;
+        padding: 20px 0;
+    }
+    .employees .container-fluid .leader .container .row .col-12 .card {
+        margin: 30px 0;
+    }
+    .news_list {
+        display: block;
+    }
+    .news .news-info {
+        margin: 25px 0px 10px !important;
+    }
+    .news .container-fluid .skills .container .row .col-12 .card .card-body .photo img,
+    .news .container-fluid .skills .container .row .col-12 .card .card-body .photo {
+        width: 100% !important;
+        height: 260px !important;
+    }
+    .news .container-fluid .skills .container .row .col-12 .card {
+        min-height: 500px;
+    }
+    .videoItems,
+    .videoList {
+        width: 100% !important;
+        display: block !important;
+        margin: 10px auto;
+    }
+    .maps_list {
+        height: 500px;
+        border: 1px solid rgb(190, 190, 190);
+        border-radius: 5px;
+    }
+    .mono .container-fluid .city-map .container .card .card-body,
+    .mono .container-fluid .city-map .container .card .card-body .ABKM,
+    .mono .container-fluid .city-map .container .card .card-body .city-maps {
+        display: block !important;
+        width: 100% !important;
+        margin: 15px 0;
+    }
+    .mono .container-fluid .body .body-text p,
+    .management .container-fluid .body .body-text p {
+        width: 100% !important;
+        top: 100px;
+    }
+    .container-fluid .menus .container .nav {
+        height: inherit;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .mono .container-fluid .body .body-content,
+    .management .container-fluid .body .body-content {
+        height: 250px;
+    }
+    .mono .container-fluid .container .body-title p {
+        font-size: 16px;
+    }
+    .mono .container-fluid .city-map .container .card {
+        display: block !important;
+    }
+    .photo_list div {
+        width: 100%;
+        padding: 20px 0 !important;
+        margin: 0 auto;
+    }
+    .container-fluid .main .main-text h5 span {
+        font-size: 20px;
+    }
+    .navbar .container .navbar-brand .text h5,
+    .navbar .container .navbar-brand .text h4 {
+        font-size: 17px !important;
+    }
+    .container-fluid .skills .bg-left {
+        background-image: url(../assets/images/bg-left.svg);
+        width: 150px;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 0 !important;
+        z-index: -1;
+    }
+    .container-fluid .skills .bg-right {
+        background-image: url(../assets/images/bg-right.svg);
+        width: 150px;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        bottom: -160px;
+        right: 0;
+        z-index: -1;
+    }
+    .regional_departamentItem,
+    .regional_departament_list,
+    .receptList {
+        display: block;
+        width: 100%;
+    }
+    .skills-info {
+        padding: 20px 0;
+    }
+    .news_cardMiniImage,
+    .vocational_trainingList,
+    .vocational_teach {
+        width: 100%;
+        display: block;
+    }
+    .vocational_teach {
+        padding: 0 20px !important;
+        box-shadow: none !important;
+    }
+    .news_cardMiniImage img {
+        width: 100% !important;
+        object-fit: cover;
+    }
+    .footer-text h5 {
+        font-size: 16px !important;
+    }
+    .news-info h6 {
+        font-size: 20px !important;
+    }
+    .news-page .news .container .card .card-body p {
+        font-size: 20px;
+    }
+    .reception_days_list {
+        padding-top: 15px;
+    }
+    .news-photo img {
+        width: 100% !important;
+        height: 300px !important;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .navbar .container .navbar-brand .text h5,
+    .navbar .container .navbar-brand .text h4 {
+        font-size: 14px !important;
+    }
+    .container-fluid .main .main-text h5 {
+        font-size: 16px !important;
+    }
+    .container-fluid .main .main-text h5 span {
+        font-size: 17px;
+    }
+    .container-fluid .skills .bg-left {
+        background-image: url(../assets/images/bg-left.svg);
+        width: 150px;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 0 !important;
+        z-index: -1;
+    }
+    .container-fluid .skills .bg-right {
+        background-image: url(../assets/images/bg-right.svg);
+        width: 150px;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        bottom: -160px;
+        right: 0;
+        z-index: -1;
+    }
+    .regional_departamentItem,
+    .regional_departament_list {
+        display: block;
+        width: 100%;
+    }
+    .skills-info {
+        padding: 20px 0;
+    }
+    .news_cardMiniImage,
+    .receptList {
+        width: 100%;
+        display: block;
+    }
+    .news_cardMiniImage img {
+        width: 100% !important;
+        object-fit: cover;
+    }
+    .vocational_teach {
+        padding: 0 10px !important;
+        box-shadow: none !important;
+    }
+    .footer-text h5 {
+        font-size: 16px !important;
+    }
+    .news-info h6 {
+        font-size: 18px !important;
+    }
+    .news-page .news .container .card .card-body p {
+        font-size: 18px;
+    }
+}

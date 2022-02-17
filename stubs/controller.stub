@@ -1,0 +1,59 @@
+<?php
+
+namespace {{ namespace }};
+
+use {{ rootNamespace }}Http\Controllers\Controller;
+use App\Http\Requests\NameRequest;
+use App\Repositories\Admin\NameRepository;
+use Illuminate\Http\Request;
+
+class {{ class }} extends Controller
+{
+    protected $repo;
+
+    public function __construct(NameRepository $repo)
+    {
+        $this->repo = $repo;
+    }
+
+    public function index()
+    {
+        $models = $this->repo->all();
+        return view('admin.nameDirection.index', compact('models'));
+    }
+
+    public function create()
+    {
+        return view('admin.nameDirection.create');
+    }
+
+    public function store(NameRequest $request)
+    {
+         $this->repo->store($request->all());
+         return redirect()->route('nameDirection.index');
+    }
+
+    public function show($id)
+    {
+        $model = $this->repo->findById($id);
+        return view('nameDirection.show', compact('model'));
+    }
+
+    public function edit($id)
+    {
+        $model = $this->repo->findById($id);
+        return view('admin.nameDirection.edit', compact('model'));
+    }
+
+    public function update(NameRequest $request, $id)
+    {
+        $this->repo->update($request->all(), $id);
+        return redirect()->route('nameDirection.index');
+    }
+
+    public function destroy($id)
+    {
+        $this->repo->delete($id);
+        return redirect()->route('nameDirection.index');
+    }
+}

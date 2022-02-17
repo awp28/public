@@ -1,0 +1,2841 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:wght@500;700;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,500;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,500;1,900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid,
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+
+/****************************navbar*****************************/
+
+.container-fluid .navbar {
+    width: 100%;
+}
+
+.container-fluid .navbar .container {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.navbar .container .navbar-brand {
+    display: flex;
+    align-content: center;
+}
+
+.navbar .navbar-brand img {
+    width: 60px;
+    height: 60px;
+}
+
+.navbar .container .navbar-brand .text h5 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 5px;
+    line-height: 116.4%;
+    text-transform: uppercase;
+    color: #4883a5;
+    margin-bottom: 0;
+}
+
+.navbar .container .navbar-brand .text h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 116.4%;
+    text-transform: uppercase;
+    color: #4883a5;
+    margin-bottom: 0;
+}
+
+.navbar .container .nav .nav-item:nth-child(1) .nav-link img {
+    width: 25px;
+    height: 25px;
+}
+
+.navbar .container .nav .nav-item:nth-child(2) .nav-link img {
+    width: 35px;
+    height: 35px;
+}
+
+.navbar .container .nav .nav-item .nav-link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 94.69%;
+    color: #535c6d;
+    padding: 0.5rem 0.6rem !important;
+    margin: 0 0.6rem !important;
+}
+
+.navbar .container .nav .nav-item .nav-link img {
+    width: 20px;
+    height: 25px;
+}
+
+
+/************navbar-end**********************/
+
+.container-fluid .submenus {
+    display: none;
+}
+
+
+/********************Menus*********************/
+
+.container-fluid {
+    position: relative;
+}
+
+.container-fluid .menus {
+    width: 100%;
+    background: #535c6d;
+    height: 55px;
+}
+
+.container-fluid .menus.active {
+    position: fixed;
+    background: rgba(27, 96, 225, 0.8);
+    top: 0;
+    z-index: 999;
+    transition: 1s linear;
+}
+
+.container-fluid .menus .container {
+    width: 100%;
+    height: 100%;
+}
+
+.container-fluid .menus .container .nav {
+    align-content: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container-fluid .menus .container .nav .nav-item {
+    position: relative;
+}
+
+.container-fluid .menus .container .nav .nav-item .nav-link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 40px;
+    color: #ffffff;
+    padding: 0.5rem 0rem !important;
+    transition: all 0.4s;
+}
+
+.container-fluid .menus .container .nav .nav-item .nav {
+    flex-direction: column;
+    background: #5c76a0;
+    backdrop-filter: blur(4px);
+    width: 360px;
+    display: none;
+    position: absolute;
+    top: 55px;
+    height: auto;
+    z-index: 999;
+    padding: 0 20px;
+}
+
+.container-fluid .menus .container .nav .nav-item:hover .nav {
+    display: flex;
+}
+
+.container-fluid .menus .container .nav .nav-item .nav .nav-item {
+    width: 100%;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.55);
+    transition: all 0.3s ease-in;
+}
+
+.container-fluid .menus .container .nav .nav-item .nav .nav-item .nav-link {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #ffffff;
+}
+
+
+/************menus-end***********************/
+
+
+/****************main********************/
+
+.container-fluid .main {
+    position: relative;
+}
+
+.container-fluid .main .main-content {
+    background-image: url("../assets/images/amur.svg");
+    width: 100%;
+    height: 764px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-fluid .main .main-text {
+    width: 100%;
+    position: absolute;
+    top: 198px;
+}
+
+.container-fluid .main .main-text h5 {
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.6;
+    text-transform: uppercase;
+    color: #708090;
+}
+
+.container-fluid .main .main-text h5 span {
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 1.6;
+    text-transform: uppercase;
+    color: #708090;
+}
+
+
+/****************main-end********************/
+
+
+/****************skills********************/
+
+.container-fluid .skills {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.container-fluid .skills .bg-left {
+    background-image: url("../assets/images/bg-left.svg");
+    width: 300px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0 !important;
+}
+
+.container-fluid .skills .bg-right {
+    background-image: url("../assets/images/bg-right.svg");
+    width: 300px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: -360px;
+    right: 0;
+    z-index: -1;
+}
+
+.container-fluid .skills .container .skills-text {
+    text-align: center;
+    width: 100%;
+    margin-top: 77px;
+}
+
+.container-fluid .skills .container .skills-text p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 94.69%;
+    letter-spacing: 0.035em;
+    color: #002542;
+    margin-bottom: 70px;
+}
+
+.container-fluid .skills .container .row {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 78px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-fluid .skills .container .row .col-6 .card {
+    border: 0;
+    margin-bottom: 30px;
+}
+
+.container-fluid .skills .container .row .col-6 .card .card-body {
+    display: flex;
+    align-items: center;
+}
+
+.container-fluid .skills .container .row .col-6 .card .card-body .skills-photo img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.container-fluid .skills .container .row .col-6 .card .card-body .skills-info {
+    margin-left: 20px;
+}
+
+.container-fluid .skills .container .row .col-6 .card .card-body .skills-info .skills-contact {
+    margin-bottom: 20px;
+}
+
+.container-fluid .skills .container .row .col-6 .card .card-body .skills-info .skills-contact h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 94.69%;
+    letter-spacing: 0.035em;
+    color: #535c6d;
+    margin-bottom: 0;
+}
+
+.container-fluid .skills .container .row .col-6 .card .card-body .skills-info .skills-contact h5 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 94.69%;
+    letter-spacing: 0.035em;
+    color: #535c6d;
+    margin-bottom: 0;
+}
+
+.container-fluid .skills .container .row .col-6 .card .card-body .skills-info .people-name {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container-fluid .skills .container .row .col-6 .card .card-body .skills-info .people-name img {
+    width: 22px;
+    height: 22px;
+}
+
+.container-fluid .skills .container .row .col-6 .card .card-body .skills-info .people-name p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 139.9%;
+    letter-spacing: 0.01em;
+    color: #51596a;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.skills-info .navigation {
+    margin-bottom: 20px;
+}
+
+.skills-info .navigation img {
+    width: 24px;
+    height: 24px;
+}
+
+.skills-info .navigation p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 111.4%;
+    color: #51596a;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    width: 254px;
+}
+
+.skills .people-tel img {
+    width: 22px;
+    height: 22px;
+}
+
+.skills .people-tel p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 139.9%;
+    text-transform: lowercase;
+    color: #51596a;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.skills-next {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.skills-next p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 94.69%;
+    letter-spacing: 0.035em;
+    color: #535c6d;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+
+/****************skills-end********************/
+
+
+/****************News********************/
+
+.container-fluid .News {
+    width: 100%;
+    height: 100%;
+}
+
+.container-fluid .News .container .news-text {
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 74px;
+}
+
+.container-fluid .News .container .news-text p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 94.69%;
+    color: #002542;
+}
+
+.container-fluid .News .container .row {
+    width: 100%;
+    margin: 0;
+    padding-top: 0;
+}
+
+.container-fluid .News .container .row .col-7 img {
+    width: 665px;
+}
+
+.container-fluid .News .container .row .col-5 img {
+    width: 331px;
+    inline-size: -webkit-fill-available;
+    height: 178px;
+}
+
+.container-fluid .News .container .row .col-5 .team {
+    margin-top: 20px;
+}
+
+.container-fluid .News .container .news-next {
+    margin-top: 39px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.container-fluid .News .container .news-next p {
+    margin-bottom: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 94.69%;
+    letter-spacing: 0.035em;
+    color: #535c6d;
+    margin-right: 10px;
+}
+
+
+/****************News-end********************/
+
+
+/****************aside********************/
+
+.container-fluid .aside {
+    width: 100%;
+    height: 100%;
+}
+
+.container-fluid .aside .container .aside-text {
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 76px;
+}
+
+.container-fluid .aside .container .aside-text p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 94.69%;
+    color: #002542;
+}
+
+.container-fluid .aside .container .row {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid .aside .container .row .col-4 {
+    /*background: #FFFFFF;*/
+    /*box-shadow: -1px -1px 20px rgba(215, 207, 207, 0.25), 1px 1px 20px rgba(215, 207, 207, 0.25);*/
+    /*border-radius: 16px;*/
+}
+
+.container-fluid .aside .container .row .col-4 .card {
+    border: 0;
+    width: 100%;
+    background: #ffffff;
+    box-shadow: -1px -1px 20px rgba(215, 207, 207, 0.25), 1px 1px 20px rgba(215, 207, 207, 0.25);
+    border-radius: 16px;
+}
+
+.container-fluid .aside .container .row .col-4 .card .card-header {
+    background: #ffffff;
+    text-align: center;
+    border-bottom: 0;
+}
+
+.container-fluid .aside .container .row .col-4 .card .card-header img {
+    width: 100px;
+    height: 100px;
+}
+
+.container-fluid .aside .container .row .col-4 .card .card-body p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 115.19%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #535c6d;
+}
+
+.container-fluid .aside .container .row .col-4 .card .card-footer {
+    background: #ffffff;
+    border-top: 0;
+    padding: 0px;
+}
+
+.container-fluid .aside .container .row .col-4 .card .card-footer .people-name img {
+    width: 22px;
+    height: 22px;
+}
+
+.container-fluid .aside .container .row .col-4 .card .card-footer .people-name p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 121.4%;
+    color: #535c6d;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.container-fluid .aside .container .row .col-4 .card .card-footer .navigation img {
+    width: 22px;
+    height: 22px;
+}
+
+.container-fluid .aside .container .row .col-4 .card .card-footer .navigation p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 121.4%;
+    color: #535c6d;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.container-fluid .aside .container .row .col-4 .card .card-footer .people-tel p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 121.4%;
+    color: #535c6d;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.container-fluid .aside .container .row .col-4 .card .card-footer .people-tel img {
+    width: 22px;
+    height: 22px;
+}
+
+
+/****************aside-end********************/
+
+
+/****************Footer********************/
+
+.container-fluid .footer {
+    width: 100%;
+    height: 560px;
+    background-image: url("../assets/images/footerback.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container-fluid .footer .container .row {
+    padding: 30px 0 0;
+}
+
+.container-fluid .footer .container .row .col-4 {
+    padding: 0px !important;
+}
+
+.container-fluid .footer .container .row .col-4 .card {
+    border: 0;
+    background: transparent;
+}
+
+.container-fluid .footer .container .row .col-4 .card .card-header {
+    background: transparent;
+    display: flex;
+    border-bottom: 0;
+    align-items: center;
+}
+
+.container-fluid .footer .container .row .col-4 .card .card-header img {
+    width: 70px;
+    height: 70px;
+}
+
+.container-fluid .footer .container .row .col-4 .card .card-header .footer-text h5 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 116.4%;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.container-fluid .footer .container .row .col-4 .card .card-header .footer-text h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 116.4%;
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 100%;
+}
+
+.container-fluid .footer .container .row .col-4 .card .card-body a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 154.4%;
+    color: #ffffff;
+}
+
+.container-fluid .footer .container .row .col-4 .card .card-body a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 154.4%;
+    color: #ffffff;
+}
+
+.container-fluid .footer .container .row .col-4 .card .card-header h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 94.69%;
+    color: #ffffff;
+}
+
+.container-fluid .footer .container .row .col-4 .card .card-footer {
+    background: transparent;
+    border-top: 0;
+}
+
+.container-fluid .footer .container .row .col-4 .card .card-footer img {
+    width: 100%;
+}
+
+
+/****************Footer-end********************/
+
+
+/*************************Ҳудудий бўлимлар*****************************/
+
+
+/****************Section********************/
+
+.section {
+    padding: 0;
+    margin: 0;
+}
+
+.section .container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.section .container-fluid .body {
+    position: relative;
+    width: 100%;
+}
+
+.section .container-fluid .body .body-content {
+    width: 100%;
+    height: 350px;
+    opacity: 0.2;
+    background-image: url("../assets/images/samar.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section .container-fluid .body .body-text p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 139.9%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #51596a;
+    position: absolute;
+    top: 198px;
+}
+
+
+/*********************box*************************/
+
+.section .container-fluid .box {
+    width: 100%;
+    height: 100%;
+}
+
+.section .container-fluid .box .container .row {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.section .container-fluid .box .container .row .col-4 .card {
+    border: 0;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section .container-fluid .box .container .row .col-4 .card .card-body .city-photo {
+    width: 300px;
+    height: 200px;
+    background: #c4c4c4;
+    border-radius: 16px;
+}
+
+.section .container-fluid .box .container .row .col-4 .card .card-body p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 94.69%;
+    letter-spacing: -0.02em;
+    color: #535c6d;
+    margin-top: 10px;
+}
+
+
+/*********************box-end*************************/
+
+
+/****************Section-end********************/
+
+
+/****************profession********************/
+
+.profession {
+    padding: 0;
+    margin: 0;
+}
+
+.profession .container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.profession .container-fluid .body {
+    position: relative;
+}
+
+.profession .container-fluid .body .body-content {
+    width: 100%;
+    height: 350px;
+    background-image: url("../assets/images/samar.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+}
+
+.profession .container-fluid .body .body-text p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 139.9%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #51596a;
+    position: absolute;
+    top: 198px;
+}
+
+.profession .container-fluid .skills .row {
+    width: 100%;
+    margin: 128px 0;
+}
+
+.profession .container-fluid .skills .row .col-4 {
+    margin: 100px 0 50px;
+}
+
+.profession .container-fluid .skills .row .col-4 .card {
+    mix-blend-mode: normal;
+    border: 1px solid #a9b2ba;
+    border-radius: 16px;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    /*margin-top: 100px;*/
+}
+
+.profession .container-fluid .skills .row .col-4 .card .card-header {
+    background: #ffffff;
+    border: 0;
+    text-align: center;
+}
+
+.profession .container-fluid .skills .row .col-4 .card .card-header img {
+    width: 100px;
+    height: 100px;
+}
+
+.profession .container-fluid .skills .row .col-4 .card .card-body p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 115.19%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #535c6d;
+}
+
+.profession .container-fluid .skills .row .col-4 .card .card-footer {
+    background: #ffffff;
+    border: 0;
+}
+
+.profession .container-fluid .skills .row .col-4 .card .card-footer .people-name img {
+    width: 22px;
+    height: 22px;
+}
+
+.profession .container-fluid .skills .row .col-4 .card .card-footer .people-name p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 121.4%;
+    color: #535c6d;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.profession .container-fluid .skills .row .col-4 .card .card-footer .navigation img {
+    width: 22px;
+    height: 22px;
+}
+
+.profession .container-fluid .skills .row .col-4 .card .card-footer .navigation p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 121.4%;
+    color: #535c6d;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.profession .container-fluid .skills .row .col-4 .card .card-footer .people-tel img {
+    width: 22px;
+    height: 22px;
+}
+
+.profession .container-fluid .skills .row .col-4 .card .card-footer .people-tel p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 121.4%;
+    color: #535c6d;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+
+/****************profession-end********************/
+
+
+/****************management********************/
+
+.management {
+    padding: 0;
+    margin: 0;
+}
+
+.management .col-6 {
+    width: 48%;
+}
+
+.management .container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.management .container-fluid .body {
+    position: relative;
+}
+
+.management .container-fluid .body .body-content {
+    width: 100%;
+    height: 350px;
+    background-image: url("../assets/images/samar.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+}
+
+.management .container-fluid .body .body-text p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 139.9%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #51596a;
+    position: absolute;
+    top: 198px;
+}
+
+.management .container-fluid .text {
+    width: 100%;
+    height: 100%;
+}
+
+.management .container-fluid .text .container p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 139.9%;
+    color: #51596a;
+    margin-top: 56px;
+}
+
+
+/****************management-end********************/
+
+
+/****************activity********************/
+
+.activity {
+    padding: 0;
+    margin: 0;
+}
+
+.activity .container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.activity .container-fluid .body {
+    position: relative;
+}
+
+.activity .container-fluid .body .body-content {
+    width: 100%;
+    height: 350px;
+    background-image: url("../assets/images/samar.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+}
+
+.activity .container-fluid .body .body-text p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 139.9%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #51596a;
+    position: absolute;
+    top: 198px;
+}
+
+.activity .container-fluid .text .container p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 139.9%;
+    color: #51596a;
+    margin-top: 56px;
+}
+
+
+/****************activity-end********************/
+
+
+/****************leadership********************/
+
+.leadership {
+    padding: 0;
+    margin: 0;
+}
+
+.leadership .container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.leadership .container-fluid .body {
+    position: relative;
+}
+
+.leadership .container-fluid .body .body-content {
+    width: 100%;
+    height: 350px;
+    background-image: url("../assets/images/samar.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+}
+
+.leadership .container-fluid .body .body-text p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 139.9%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #51596a;
+    position: absolute;
+    top: 198px;
+}
+
+.leadership .container-fluid .leader .container .row .col-12 .card {
+    width: 100%;
+    margin: 56px 0 52px;
+}
+
+.leadership .container-fluid .leader .container .row .col-12 .card .card-body .men-photo {
+    background: linear-gradient(172.51deg, #e6e6e6 -19.12%, #fdfdfd 124.44%);
+    border-radius: 16px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leadership .container-fluid .leader .container .row .col-12 .card .card-body .men-photo img {
+    width: 100px;
+    height: 100px;
+}
+
+.leadership .container-fluid .leader .container .row .col-12 .card .card-body .info {
+    margin-left: 82px;
+}
+
+.leadership .container-fluid .leader .container .row .col-12 .card .card-body .info p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 139.9%;
+    color: #51596a;
+    margin-bottom: 30px;
+}
+
+.leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .people-info .name img {
+    width: 25px;
+    height: 25px;
+}
+
+.leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .people-info .name p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 139.9%;
+    letter-spacing: 0.01em;
+    color: #51596a;
+    width: 100%;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .people-info .tel-number img {
+    width: 25px;
+    height: 25px;
+}
+
+.leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .people-info .tel-number p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 139.9%;
+    letter-spacing: 0.01em;
+    color: #51596a;
+    width: 100%;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .watch {
+    margin-left: 100px;
+}
+
+.leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .watch img {
+    width: 25px;
+    height: 25px;
+}
+
+.leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .watch p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 139.9%;
+    letter-spacing: 0.01em;
+    color: #51596a;
+    width: 230px;
+    margin-left: 10px;
+}
+
+.leadership .container-fluid .leader .container .row .line {
+    width: 100%;
+    border: 0.5px solid rgba(0, 0, 0, 0.7);
+}
+
+
+/****************leadership-end********************/
+
+
+/****************employees********************/
+
+.employees {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.employees .container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.employees .container-fluid .body {
+    position: relative;
+}
+
+.employees .container-fluid .body .body-content {
+    width: 100%;
+    height: 350px;
+    background-image: url("../assets/images/samar.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+}
+
+.employees .container-fluid .body .body-text p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 139.9%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #51596a;
+    position: absolute;
+    top: 198px;
+}
+
+.employees .container-fluid .leader .container .row .col-12 .card {
+    width: 100%;
+    margin: 0px 0 10px;
+}
+
+.employees .container-fluid .leader .container .row .col-12 .card .card-body .men-photo {
+    /* background: linear-gradient(172.51deg, #E6E6E6 -19.12%, #FDFDFD 124.44%); */
+    border-radius: 16px;
+    /* width: 200px;
+    height: 200px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.employees .container-fluid .leader .container .row .col-12 .card .card-body .men-photo img {
+    width: 200px;
+    height: 230px;
+}
+
+.employees .container-fluid .leader .container .row .col-12 .card .card-body .info {
+    margin-left: 82px;
+}
+
+.employees .container-fluid .leader .container .row .col-12 .card .card-body .info p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 139.9%;
+    color: #51596a;
+    margin-bottom: 40px;
+}
+
+.employees .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .people-info .name {
+    margin-bottom: 30px !important;
+}
+
+.employees .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .people-info .name img {
+    width: 25px;
+    height: 25px;
+}
+
+.employees .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .people-info .name p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 139.9%;
+    letter-spacing: 0.01em;
+    color: #51596a;
+    width: 100%;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.employees .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .people-info .tel-number img {
+    width: 25px;
+    height: 25px;
+}
+
+.employees .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .people-info .tel-number p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 139.9%;
+    letter-spacing: 0.01em;
+    color: #51596a;
+    width: 100%;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.employees .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .watch {
+    margin-left: 100px;
+}
+
+.employees .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .watch img {
+    width: 25px;
+    height: 25px;
+}
+
+.employees .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .watch p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 139.9%;
+    letter-spacing: 0.01em;
+    color: #51596a;
+    width: 230px;
+    margin-left: 10px;
+}
+
+.employees .container-fluid .leader .container .row .line {
+    width: 100%;
+    border: 0.5px solid rgba(0, 0, 0, 0.7);
+}
+
+
+/****************employees-end********************/
+
+
+/****************Information********************/
+
+.information {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.information .container-fluid .body {
+    position: relative;
+}
+
+.information .container-fluid .body .body-content {
+    width: 100%;
+    height: 350px;
+    background-image: url("../assets/images/samar.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+}
+
+.information .container-fluid .body .body-text p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 139.9%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #51596a;
+    position: absolute;
+    top: 198px;
+}
+
+.information .container-fluid .skills .container .row {
+    width: 100%;
+    margin: 0;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.information .container-fluid .skills .container .row .col-12 .card {
+    mix-blend-mode: normal;
+    border: 1px solid #a9b2ba;
+    border-radius: 16px;
+    margin-top: 56px;
+}
+
+.information .container-fluid .skills .container .row .col-12 .card .card-body {
+    width: 100%;
+    height: 100%;
+}
+
+.information .container-fluid .skills .container .row .col-12 .card .card-body .date {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.information .container-fluid .skills .container .row .col-12 .card .card-body .date img {
+    width: 25px;
+    height: 25px;
+}
+
+.information .container-fluid .skills .container .row .col-12 .card .card-body .date p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 139.9%;
+    text-transform: lowercase;
+    color: #535c6d;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.information .container-fluid .skills .container .row .col-12 .card .card-body h6 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 129.4%;
+    color: #51596a;
+}
+
+.information .container-fluid .skills .container .row .col-12 .card .card-body .download {
+    background: #535c6d;
+    border-radius: 7px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+.information .container-fluid .skills .container .row .col-12 .card .card-body .download img {
+    width: 22px;
+    height: 22px;
+}
+
+.information .container-fluid .skills .container .row .col-12 .card .card-body .download p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 139.9%;
+    text-transform: lowercase;
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+
+/****************Information-end********************/
+
+
+/****************laws************************/
+
+.laws {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.laws .container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.laws .container-fluid .body {
+    position: relative;
+}
+
+.laws .container-fluid .body .body-content {
+    width: 100%;
+    height: 350px;
+    background-image: url("../assets/images/samar.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+}
+
+.laws .container-fluid .body .body-text p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 139.9%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #51596a;
+    position: absolute;
+    top: 198px;
+}
+
+.container-fluid .skills .container .row {
+    width: 100%;
+    margin: 0;
+}
+
+.laws .container-fluid .skills .container .row .col-12 .card {
+    mix-blend-mode: normal;
+    border: 1px solid #a9b2ba;
+    border-radius: 16px;
+    margin-top: 56px;
+}
+
+.laws .container-fluid .skills .container .row .col-12 .card .card-body {
+    width: 100%;
+    height: 100%;
+}
+
+.laws .container-fluid .skills .container .row .col-12 .card .card-body .date {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.laws .container-fluid .skills .container .row .col-12 .card .card-body .date img {
+    width: 25px;
+    height: 25px;
+}
+
+.laws .container-fluid .skills .container .row .col-12 .card .card-body .date p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 139.9%;
+    text-transform: lowercase;
+    color: #535c6d;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.laws .container-fluid .skills .container .row .col-12 .card .card-body h6 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 129.4%;
+    color: #51596a;
+}
+
+.laws .container-fluid .skills .container .row .col-12 .card .card-body .download {
+    background: #535c6d;
+    border-radius: 7px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+.laws .container-fluid .skills .container .row .col-12 .card .card-body .download img {
+    width: 22px;
+    height: 22px;
+    margin-left: 10px;
+}
+
+
+/* .laws .container-fluid .skills .container .row .col-12 .card .card-body .download a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 139.9%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    margin-left: 10px;
+} */
+
+
+/****************laws-end********************/
+
+
+/****************ministry********************/
+
+.ministry {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.ministry .container-fluid .body {
+    position: relative;
+}
+
+.ministry .container-fluid .body .body-content {
+    width: 100%;
+    height: 350px;
+    background-image: url("../assets/images/samar.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+}
+
+.ministry .container-fluid .body .body-text p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 139.9%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #51596a;
+    position: absolute;
+    top: 140px;
+    width: 500px;
+}
+
+.ministry .container-fluid .skills .container .row {
+    width: 100%;
+    margin: 0;
+}
+
+.ministry .container-fluid .skills .container .row .col-12 .card {
+    mix-blend-mode: normal;
+    border: 1px solid #a9b2ba;
+    border-radius: 16px;
+    margin-top: 56px;
+}
+
+.ministry .container-fluid .skills .container .row .col-12 .card .card-body {
+    width: 100%;
+    height: 100%;
+}
+
+.ministry .container-fluid .skills .container .row .col-12 .card .card-body .date {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.ministry .container-fluid .skills .container .row .col-12 .card .card-body .date img {
+    width: 25px;
+    height: 25px;
+}
+
+.ministry .container-fluid .skills .container .row .col-12 .card .card-body .date p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 139.9%;
+    text-transform: lowercase;
+    color: #535c6d;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.ministry .container-fluid .skills .container .row .col-12 .card .card-body h6 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 129.4%;
+    color: #51596a;
+}
+
+.ministry .container-fluid .skills .container .row .col-12 .card .card-body .download {
+    background: #535c6d;
+    border-radius: 7px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+.ministry .container-fluid .skills .container .row .col-12 .card .card-body .download img {
+    width: 22px;
+    height: 22px;
+}
+
+.ministry .container-fluid .skills .container .row .col-12 .card .card-body .download p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 139.9%;
+    text-transform: lowercase;
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+
+/****************ministry-end********************/
+
+
+/****************news********************/
+
+.news {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.news .container-fluid .body {
+    position: relative;
+}
+
+.news .container-fluid .body .body-content {
+    width: 100%;
+    height: 350px;
+    background-image: url("../assets/images/samar.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+}
+
+.news .container-fluid .body .body-text p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 139.9%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #51596a;
+    position: absolute;
+    top: 198px;
+    width: 500px;
+}
+
+.news .container-fluid .skills .container .row {
+    width: 100%;
+    margin: 0;
+}
+
+.news .container-fluid .skills .container .row .col-12 .card {
+    mix-blend-mode: normal;
+    border: 1px solid #a9b2ba;
+    border-radius: 16px;
+    margin-top: 56px;
+}
+
+.news .container-fluid .skills .container .row .col-12 .card .card-body {
+    width: 100%;
+    height: 100%;
+}
+
+.news .container-fluid .skills .container .row .col-12 .card .card-body .photo {
+    width: 300px;
+    height: 200px;
+}
+
+.news .container-fluid .skills .container .row .col-12 .card .card-body .photo img {
+    /*width: 300px;*/
+    height: 200px;
+}
+
+.news .container-fluid .skills .container .row .col-12 .card .card-body .news-info {
+    margin-left: 50px;
+}
+
+.news .container-fluid .skills .container .row .col-12 .card .card-body .news-info h6 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 115.19%;
+    letter-spacing: 0.02em;
+    text-transform: lowercase;
+    color: #51596a;
+    margin-bottom: 20px;
+}
+
+.news .container-fluid .skills .container .row .col-12 .card .card-body .news-info .date {
+    display: flex;
+    align-items: center;
+}
+
+.news .container-fluid .skills .container .row .col-12 .card .card-body .news-info .date img {
+    width: 25px;
+    height: 25px;
+}
+
+.news .container-fluid .skills .container .row .col-12 .card .card-body .news-info .date p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 139.9%;
+    text-transform: lowercase;
+    color: #535c6d;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.news .container-fluid .skills .container .row .col-12 .card .card-body .news-info button {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 139.9%;
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-top: 20px;
+    width: 125px;
+}
+
+
+/****************news-end********************/
+
+
+/****************news-page********************/
+
+.news-page {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.news-page .container-fluid .body {
+    position: relative;
+}
+
+.news-page .container-fluid .body .body-content {
+    width: 100%;
+    height: 350px;
+    background-image: url("../assets/images/samar.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+}
+
+.news-page .container-fluid .body .body-text p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 139.9%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #51596a;
+    position: absolute;
+    top: 198px;
+    width: 500px;
+}
+
+.news-page .news .container .card {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.news-page .news .container .card .card-body h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    width: 100%;
+    line-height: 115.19%;
+    letter-spacing: 0.02em;
+    color: #51596a;
+    margin-top: 52px;
+}
+
+.news-page .news .container .card .card-body .data {
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    margin: 42px 0 35px;
+}
+
+.news-page .news .container .card .card-body .data img {
+    width: 22px;
+    height: 22px;
+}
+
+.news-page .news .container .card .card-body .data p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    line-height: 139.9%;
+    text-transform: lowercase;
+    color: #535c6d;
+    margin-top: 0;
+}
+
+.news-page .news-photo {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 16px;
+    margin-bottom: 50px;
+}
+
+.news-page .news .container .card .card-body h6 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    text-align: justify;
+    line-height: 151.4%;
+    text-transform: lowercase;
+    color: #51596a;
+}
+
+
+/****************news-page-end********************/
+
+
+/****************Fotogalereya********************/
+
+.Foto-galereya {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.Foto-galereya .container-fluid .body {
+    position: relative;
+}
+
+.Foto-galereya .container-fluid .body .body-content {
+    width: 100%;
+    height: 350px;
+    background-image: url("../assets/images/samar.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+}
+
+.Foto-galereya .container-fluid .body .body-text p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 139.9%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #51596a;
+    position: absolute;
+    top: 198px;
+    width: 500px;
+}
+
+.Foto-galereya .container-fluid .galereya .container .row {
+    padding: 0 0px;
+    margin: 0;
+}
+
+.Foto-galereya .container-fluid .galereya .container .row .col-4 .card {
+    border: 0;
+}
+
+.Foto-galereya .container-fluid .galereya .container .row .col-4 .card .card-body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.Foto-galereya .container-fluid .galereya .container .row .col-4 .card .card-body img {
+    width: 100%;
+}
+
+.Foto-galereya .container-fluid .galereya .container .row .col-4 .card .card-body .date {
+    margin-top: 10px;
+}
+
+.Foto-galereya .container-fluid .galereya .container .row .col-4 .card .card-body .date img {
+    width: 22px;
+    height: 22px;
+}
+
+.Foto-galereya .container-fluid .galereya .container .row .col-4 .card .card-body .date p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 139.9%;
+    text-transform: lowercase;
+    color: rgba(83, 92, 109, 0.7);
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.Foto-galereya .container-fluid .galereya .container .row .col-4 .card .card-body p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22.5536px;
+    line-height: 151.4%;
+    color: #51596a;
+    margin-top: 10px;
+}
+
+
+/****************Fotogalereya-end********************/
+
+
+/****************Видеогалерия********************/
+
+.video-gallery {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.video-gallery .container-fluid .body {
+    position: relative;
+}
+
+.video-gallery .container-fluid .body .body-content {
+    width: 100%;
+    height: 350px;
+    background-image: url("../assets/images/samar.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+}
+
+.video-gallery .container-fluid .body .body-text p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 139.9%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #51596a;
+    position: absolute;
+    top: 198px;
+    width: 500px;
+}
+
+.video-gallery.container-fluid .galereya .container .row {
+    padding: 0 15px;
+    margin: 0;
+}
+
+.video-gallery .container-fluid .galereya .container .row .col-4 .card {
+    border: 0;
+}
+
+.video-gallery .container-fluid .galereya .container .row .col-4 .card .card-body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.video-gallery .container-fluid .galereya .container .row .col-4 .card .card-body .video {
+    position: relative;
+}
+
+.video-gallery .container-fluid .galereya .container .row .col-4 .card .card-body .video .play {
+    position: absolute;
+    z-index: 999;
+    width: 100px;
+    height: 100px;
+}
+
+.video-gallery .container-fluid .galereya .container .row .col-4 .card .card-body img {
+    width: 100%;
+}
+
+.Foto-galereya .container-fluid .galereya .container .row .col-4 .card .card-body .date {
+    margin-top: 10px;
+}
+
+.video-gallery .container-fluid .galereya .container .row .col-4 .card .card-body .date img {
+    width: 22px;
+    height: 22px;
+}
+
+.video-gallery .container-fluid .galereya .container .row .col-4 .card .card-body .date p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 139.9%;
+    text-transform: lowercase;
+    color: rgba(83, 92, 109, 0.7);
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.video-gallery .container-fluid .galereya .container .row .col-4 .card .card-body p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22.5536px;
+    line-height: 151.4%;
+    text-transform: uppercase;
+    color: #51596a;
+    margin-top: 10px;
+}
+
+
+/****************Видеогалерия-end********************/
+
+
+/****************contact********************/
+
+.contact {
+    padding: 0;
+    margin: 0;
+}
+
+.contact .container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.contact .container-fluid .body {
+    position: relative;
+}
+
+.contact .container-fluid .body .body-content {
+    width: 100%;
+    height: 350px;
+    background-image: url("../assets/images/samar.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+}
+
+.contact .container-fluid .body .body-text p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 139.9%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #51596a;
+    position: absolute;
+    top: 198px;
+    width: 500px;
+}
+
+.contact .container-fluid .address .container .row {
+    padding: 15px 0;
+    width: 100%;
+    margin: 0;
+}
+
+.row .col-5 .card {
+    border: 0;
+    margin-top: 50px;
+}
+
+.row .col-5 .card .card-body {
+    padding: 0;
+}
+
+.row .col-5 .card .card-body .addres-email {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 3px 3px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    padding: 20px 60px;
+    margin-bottom: 50px;
+}
+
+.row .col-5 .card .card-body .addres-email .navigation {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.row .col-5 .card .card-body .addres-email .navigation .navi-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #535c6d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row .col-5 .card .card-body .addres-email .navigation .navi-photo img {
+    width: 18px;
+}
+
+.row .col-5 .card .card-body .addres-email .navigation .navigation-title {
+    padding: 0 20px;
+}
+
+.row .col-5 .card .card-body .addres-email .navigation .navigation-title h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 151.4%;
+    color: #2a3243;
+    margin-bottom: 0;
+}
+
+.row .col-5 .card .card-body .addres-email .navigation .navigation-title p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 136.4%;
+    text-transform: lowercase;
+    color: #51596a;
+    width: 205px;
+}
+
+.row .col-5 .card .card-body .addres-email .pochta {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.row .col-5 .card .card-body .addres-email .pochta .pochta-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #535c6d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row .col-5 .card .card-body .addres-email .pochta .pochta-photo img {
+    width: 18px;
+}
+
+.row .col-5 .card .card-body .addres-email .pochta .pochta-title {
+    padding: 0 20px;
+}
+
+.row .col-5 .card .card-body .addres-email .pochta .pochta-title h5 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 151.4%;
+    color: #2a3243;
+    margin-bottom: 0;
+}
+
+.row .col-5 .card .card-body .addres-email .pochta .pochta-title p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 136.4%;
+    text-transform: lowercase;
+    color: #51596a;
+    width: 205px;
+}
+
+.row .col-5 .card .card-body .addres-email .phone {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.row .col-5 .card .card-body .addres-email .phone .phone-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #535c6d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row .col-5 .card .card-body .addres-email .phone .phone-photo img {
+    width: 18px;
+}
+
+.row .col-5 .card .card-body .addres-email .phone .phone-title {
+    padding: 0 20px;
+}
+
+.row .col-5 .card .card-body .addres-email .phone .phone-title h5 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 151.4%;
+    color: #2a3243;
+    margin-bottom: 0;
+}
+
+.row .col-5 .card .card-body .addres-email .phone .phone-title a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 136.4%;
+    text-transform: lowercase;
+    color: #51596a;
+    /*width: 253px;*/
+    padding: 0;
+}
+
+.row .col-5 .card .card-body .registr {
+    background: #ffffff;
+    box-shadow: 3px 3px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    padding: 25px 60px;
+}
+
+.row .col-5 .card .card-body .registr input {
+    border: -1px solid rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.row .col-5 .card .card-body .registr textarea {
+    border: -1px solid rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.row .col-5 .card .card-body .registr button {
+    border-radius: 7px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    width: 130px;
+    line-height: 151.4%;
+    color: #ffffff;
+}
+
+.row .col-7 .card {
+    border: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.col-7 .card .card-body {
+    width: 100%;
+    padding: 0;
+}
+
+.col-7 .card .card-body img {
+    width: 100%;
+    /*height: 100%;*/
+    height: 784px;
+}
+
+
+/****************contact-end********************/
+
+
+/****************City********************/
+
+.city {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.city .container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.city .container-fluid .body {
+    position: relative;
+}
+
+.city .container-fluid .body .body-content {
+    width: 100%;
+    height: 350px;
+    background-image: url("../assets/images/samar.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+}
+
+.city .container-fluid .body .body-text p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 139.9%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #51596a;
+    position: absolute;
+    top: 198px;
+    width: 500px;
+}
+
+.city .container-fluid .container .body-title p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 139.9%;
+    color: #51596a;
+    margin-top: 50px;
+}
+
+.city .container-fluid .city-map .container .card {
+    border: 0;
+}
+
+.city .container-fluid .city-map .container .card .card-body {
+    padding: 0;
+    display: flex;
+}
+
+.city .container-fluid .city-map .container .card .card-body .ABKM {
+    width: 40%;
+}
+
+.city .container-fluid .city-map .container .card .card-body .ABKM h5 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 139.9%;
+    color: #51596a;
+    margin-bottom: 50px;
+}
+
+.city .container-fluid .city-map .container .card .card-body .ABKM .people-name img {
+    width: 20px;
+    height: 20px;
+}
+
+.city .container-fluid .city-map .container .card .card-body .ABKM .people-name p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 139.9%;
+    letter-spacing: 0.01em;
+    color: #51596a;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+.city .container-fluid .city-map .container .card .card-body .ABKM .navigation img {
+    width: 20px;
+    height: 20px;
+}
+
+.city .container-fluid .city-map .container .card .card-body .ABKM .navigation p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 139.9%;
+    letter-spacing: 0.01em;
+    color: #51596a;
+    margin-bottom: 0;
+    margin-left: 20px;
+    width: 256px;
+}
+
+.city .container-fluid .city-map .container .card .card-body .ABKM .people-tel img {
+    width: 20px;
+    height: 20px;
+}
+
+.city .container-fluid .city-map .container .card .card-body .ABKM .people-tel a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 139.9%;
+    letter-spacing: 0.01em;
+    color: #51596a;
+    margin-bottom: 0;
+    margin-left: 3px;
+}
+
+.city .container-fluid .city-map .container .card .card-body .city-map {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.city .container-fluid .city-map .container .card .card-body .city-map img {
+    width: 100%;
+    /*height: 100%;*/
+}
+
+.city-map .card-net {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.city-map .card-net .input-group {
+    position: relative;
+    width: 360px;
+}
+
+.city-map .card-net .input-group .GPS {
+    width: 40px;
+    height: 38px;
+    background: #ffffff;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.city-map .card-net .input-group .GPS img {
+    width: 20px !important;
+    height: 20px;
+}
+
+.city-map .card-net .input-group .lupa {
+    width: 20px !important;
+    height: 20px;
+    position: absolute;
+    z-index: 999;
+    top: 10px;
+    left: 70px;
+}
+
+.city-map .card-net .input-group input {
+    background: #ffffff;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    margin-left: 10px;
+}
+
+.city-map .card-net .input-group .input-group-append {
+    height: 100%;
+}
+
+.city-map .card-net .input-group .input-group-append .btn {
+    /*background: #FFFFFF;*/
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.city-map .box {
+    margin-top: 20px;
+    position: relative;
+}
+
+.city-map .box .increment {
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.city-map .box .increment img {
+    width: 20px !important;
+    height: 20px;
+}
+
+.city-map .box .line {
+    width: 10px;
+    height: 150px;
+    background: #ffffff;
+    border: 1px solid #a7a1a1;
+    box-sizing: border-box;
+    margin-left: 15px;
+}
+
+.city-map .box .line2 {
+    width: 30px;
+    background: #ffffff;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    height: 10px;
+    position: absolute;
+    top: 105px;
+    left: 4px;
+}
+
+.city-map .box .decrement {
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.city-map .box .decrement img {
+    width: 20px !important;
+    height: 20px;
+}
+
+
+/****************city-end********************/
+
+
+/****************mono********************/
+
+.mono {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.mono .container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.mono .container-fluid .body {
+    position: relative;
+}
+
+.mono .container-fluid .body .body-content {
+    width: 100%;
+    height: 350px;
+    background-image: url("../assets/images/samar.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+}
+
+.mono .container-fluid .body .body-text p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 139.9%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #51596a;
+    position: absolute;
+    top: 198px;
+    width: 500px;
+}
+
+.mono .container-fluid .container .body-title p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 139.9%;
+    color: #51596a;
+    margin-top: 50px;
+}
+
+.mono .container-fluid .city-map .container .card {
+    border: 0;
+}
+
+.mono .container-fluid .city-map .container .card .card-body {
+    padding: 0;
+    display: flex;
+}
+
+.mono .container-fluid .city-map .container .card .card-body .ABKM {
+    width: 40%;
+}
+
+.mono .container-fluid .city-map .container .card .card-body .ABKM h5 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 139.9%;
+    color: #51596a;
+    margin-bottom: 50px;
+}
+
+.mono .container-fluid .city-map .container .card .card-body .ABKM .people-name img {
+    width: 20px;
+    height: 20px;
+}
+
+.mono .container-fluid .city-map .container .card .card-body .ABKM .people-name p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 139.9%;
+    letter-spacing: 0.01em;
+    color: #51596a;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+.mono .container-fluid .city-map .container .card .card-body .ABKM .navigation img {
+    width: 20px;
+    height: 20px;
+}
+
+.mono .container-fluid .city-map .container .card .card-body .ABKM .navigation p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 139.9%;
+    letter-spacing: 0.01em;
+    color: #51596a;
+    margin-bottom: 0;
+    margin-left: 20px;
+    width: 256px;
+}
+
+.mono .container-fluid .city-map .container .card .card-body .ABKM .people-tel img {
+    width: 20px;
+    height: 20px;
+}
+
+.mono .container-fluid .city-map .container .card .card-body .ABKM .people-tel a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 139.9%;
+    letter-spacing: 0.01em;
+    color: #51596a;
+    margin-bottom: 0;
+    margin-left: 3px;
+}
+
+.mono .container-fluid .city-map .container .card .card-body .city-maps {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.mono .container-fluid .city-map .container .card .card-body .city-maps img {
+    width: 100%;
+    /*height: 100%;*/
+}
+
+.city-maps .card-net {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.city-maps .card-net .input-group {
+    position: relative;
+    width: 360px;
+}
+
+.city-maps .card-net .input-group .GPS {
+    width: 40px;
+    height: 38px;
+    background: #ffffff;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.city-maps .card-net .input-group .GPS img {
+    width: 20px !important;
+    height: 20px;
+}
+
+.city-maps .card-net .input-group .lupa {
+    width: 20px !important;
+    height: 20px;
+    position: absolute;
+    z-index: 999;
+    top: 10px;
+    left: 70px;
+}
+
+.city-maps .card-net .input-group input {
+    background: #ffffff;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    margin-left: 10px;
+}
+
+.city-maps .card-net .input-group .input-group-append {
+    height: 100%;
+}
+
+.city-maps .card-net .input-group .input-group-append .btn {
+    /*background: #FFFFFF;*/
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.city-maps .box {
+    margin-top: 20px;
+    position: relative;
+}
+
+.city-maps .box .increment {
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.city-maps .box .increment img {
+    width: 20px !important;
+    height: 20px;
+}
+
+.city-maps .box .line {
+    width: 10px;
+    height: 130px;
+    background: #ffffff;
+    border: 1px solid #a7a1a1;
+    box-sizing: border-box;
+    margin-left: 15px;
+}
+
+.city-maps .box .line2 {
+    width: 30px;
+    background: #ffffff;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    height: 10px;
+    position: absolute;
+    top: 105px;
+    left: 4px;
+}
+
+.city-maps .box .decrement {
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.city-maps .box .decrement img {
+    width: 20px !important;
+    height: 20px;
+}
